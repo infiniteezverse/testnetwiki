@@ -1,0 +1,7 @@
+{
+  "label": "Mainnet Bridging & Infrastructure",
+  "link": {
+    "type": "generated-index",
+    "description": "Asset bridging routes into Horizen Mainnet and testnet/mainnet network parameters."
+  }
+}

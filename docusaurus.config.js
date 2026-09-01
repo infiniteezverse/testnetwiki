@@ -5,6 +5,8 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -49,6 +51,8 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/infiniteezverse/testnetwiki/tree/main/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: false,
         theme: {
@@ -56,6 +60,16 @@ const config = {
         },
       }),
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css',
+      type: 'text/css',
+      integrity:
+        'sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+',
+      crossorigin: 'anonymous',
+    },
   ],
 
   themeConfig:
@@ -99,16 +113,20 @@ const config = {
             title: 'Wiki',
             items: [
               {
-                label: 'Overview',
-                to: '/docs/overview',
+                label: 'Introduction',
+                to: '/docs/overview-vision/introduction',
               },
               {
-                label: 'Contracts',
-                to: '/docs/contracts',
+                label: 'Testnet Guide',
+                to: '/docs/testnet-guide/user-guide',
+              },
+              {
+                label: 'Contract Registry',
+                to: '/docs/technical-reference/contract-registry',
               },
               {
                 label: 'Roadmap',
-                to: '/docs/roadmap/zv1-private-trading',
+                to: '/docs/roadmap/architectural-evolution',
               },
             ],
           },
@@ -148,6 +166,7 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['solidity'],
       },
     }),
 };

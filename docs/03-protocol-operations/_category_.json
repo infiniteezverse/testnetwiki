@@ -1,0 +1,7 @@
+{
+  "label": "Protocol Operations & Modules",
+  "link": {
+    "type": "generated-index",
+    "description": "The Vault, the private ZK-AMM, the private order book, fees & staking, and the compliance layer."
+  }
+}

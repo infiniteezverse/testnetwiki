@@ -1,0 +1,7 @@
+{
+  "label": "Core Architecture & ZK Mechanics",
+  "link": {
+    "type": "generated-index",
+    "description": "The zero-knowledge proving stack, commitment/nullifier lifecycle, and privacy guarantees underpinning ZENDEX."
+  }
+}

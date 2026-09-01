@@ -1,0 +1,7 @@
+{
+  "label": "Technical Reference & Smart Contracts",
+  "link": {
+    "type": "generated-index",
+    "description": "Contract architecture, the verifier circuit registry, deployed addresses, and the security & audit portfolio."
+  }
+}
