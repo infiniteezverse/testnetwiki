@@ -111,13 +111,13 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://x.com/zendexfi',
-            label: 'On X',
+            href: 'https://docs.google.com/forms/d/e/1FAIpQLSdoz2zQCio0TjEtFhV1CdVVbmg5aEPhDuH-cGT2lO_HPa6sBw/viewform',
+            label: 'Form',
             position: 'right',
           },
           {
-            href: 'https://docs.google.com/forms/d/e/1FAIpQLSdoz2zQCio0TjEtFhV1CdVVbmg5aEPhDuH-cGT2lO_HPa6sBw/viewform',
-            label: 'Form',
+            href: 'https://x.com/zendexfi',
+            label: 'On X',
             position: 'right',
           },
         ],
