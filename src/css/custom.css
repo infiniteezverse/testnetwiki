@@ -4,15 +4,17 @@
  * work well for content-centric websites.
  */
 
-/* ZENDEX Horizen-yellow-on-black palette, ramped in 15% lightness steps off #fccc1c */
+/* Light mode: same ramp shifted warmer (hue toward orange, saturation maxed)
+   so it reads as amber-gold instead of brown at low lightness, while holding
+   lightness steady so contrast against white doesn't suffer. */
 :root {
-  --ifm-color-primary: #c89d03;
-  --ifm-color-primary-dark: #aa8602;
-  --ifm-color-primary-darker: #907202;
-  --ifm-color-primary-darkest: #7b6102;
-  --ifm-color-primary-light: #ebb903;
-  --ifm-color-primary-lighter: #fccc1c;
-  --ifm-color-primary-lightest: #fdd74d;
+  --ifm-color-primary: #cc8800;
+  --ifm-color-primary-dark: #ad7400;
+  --ifm-color-primary-darker: #936200;
+  --ifm-color-primary-darkest: #7d5400;
+  --ifm-color-primary-light: #f0a000;
+  --ifm-color-primary-lighter: #ffb31b;
+  --ifm-color-primary-lightest: #ffc44d;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
