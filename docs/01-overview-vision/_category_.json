@@ -2,6 +2,7 @@
   "label": "Overview & Vision",
   "link": {
     "type": "generated-index",
+    "slug": "/",
     "description": "An introduction to ZENDEX, the problem it solves, and how it aligns with the Horizen ecosystem."
   }
 }

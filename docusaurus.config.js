@@ -48,6 +48,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.js',
           editUrl:
             'https://github.com/infiniteezverse/testnetwiki/tree/main/',
@@ -114,19 +115,19 @@ const config = {
             items: [
               {
                 label: 'Introduction',
-                to: '/docs/overview-vision/introduction',
+                to: '/overview-vision/introduction',
               },
               {
                 label: 'Testnet Guide',
-                to: '/docs/testnet-guide/user-guide',
+                to: '/testnet-guide/user-guide',
               },
               {
                 label: 'Contract Registry',
-                to: '/docs/technical-reference/contract-registry',
+                to: '/technical-reference/contract-registry',
               },
               {
                 label: 'Roadmap',
-                to: '/docs/roadmap/architectural-evolution',
+                to: '/roadmap/architectural-evolution',
               },
             ],
           },
