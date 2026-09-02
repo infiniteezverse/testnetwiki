@@ -96,13 +96,28 @@ const config = {
             label: 'Wiki',
           },
           {
-            href: 'https://zendex.fi',
-            label: 'ZENDEX.fi',
+            href: 'https://www.testnet.zendex.fi/',
+            label: 'Testnet',
             position: 'right',
           },
           {
-            href: 'https://github.com/infiniteezverse/testnetwiki',
-            label: 'GitHub',
+            href: 'https://www.zendex.fi/',
+            label: 'Website',
+            position: 'right',
+          },
+          {
+            href: 'https://zendex.carrd.co/',
+            label: 'Community Socials',
+            position: 'right',
+          },
+          {
+            href: 'https://x.com/zendexfi',
+            label: 'On X',
+            position: 'right',
+          },
+          {
+            href: 'https://docs.google.com/forms/d/e/1FAIpQLSdoz2zQCio0TjEtFhV1CdVVbmg5aEPhDuH-cGT2lO_HPa6sBw/viewform',
+            label: 'Form',
             position: 'right',
           },
         ],
