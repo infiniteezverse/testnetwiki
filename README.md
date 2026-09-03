@@ -1,6 +1,6 @@
 # ZENDEX Testnet Wiki
 
-Source for [testnetwiki.zendex.fi](https://testnetwiki.zendex.fi), built with [Docusaurus](https://docusaurus.io/).
+Source for [wiki-testnet.zendex.fi](https://wiki-testnet.zendex.fi), built with [Docusaurus](https://docusaurus.io/).
 
 Docs content lives under `docs/`. The sidebar is auto-generated from that
 folder's structure — add a new `.md` file or a `_category_.json` to extend it.
