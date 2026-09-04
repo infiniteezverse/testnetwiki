@@ -1,8 +1,8 @@
 ---
-title: Contact Links
+title: Ecosystem Contacts
 ---
 
-# Contact Links
+# Ecosystem Contacts
 
 * [Testnet](https://www.testnet.zendex.fi/)
 * [Website](https://www.zendex.fi/)

@@ -142,7 +142,7 @@ const config = {
               },
               {
                 label: 'Roadmap',
-                to: '/roadmap/architectural-evolution',
+                to: '/roadmap',
               },
             ],
           },
